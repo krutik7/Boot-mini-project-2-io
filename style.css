@@ -806,7 +806,7 @@ h1{
 }
 .col-md-5{
   background-color: white;
-  width: 420px;
+  width: 420px; 
 }
 .col-lgg{
   background-color: white;
@@ -871,9 +871,6 @@ form label{
   }
 }
 @media screen and (max-width:426px){
-    .contact-div iframe{
-      width: auto !important;
-    }
     .col-div .fa{
       font-size: 23px;
       padding: 7px 0px 0px 14px;
