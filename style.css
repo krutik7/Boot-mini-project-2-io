@@ -270,6 +270,9 @@ h1{
   font-style: italic;
   font-size: 15px;
 }
+.col-data{
+  font-family: 'Poppins';
+}
 .col-data .fa{
   color: #149ddd;
   font-size: 18px;
@@ -723,6 +726,7 @@ h1{
   height: auto;
   align-items: unset !important;
 }
+
 .col-mdd .fa{
   background-color: unset;
   border: unset;
@@ -782,6 +786,12 @@ h1{
     margin-left: 0px;
   }
 }
+@media screen and (max-width:500px){
+  
+  .col-mdd{
+    margin-bottom: 15px !important;
+  }
+}
 /* ------------------------------------------------------------CONTACT-SECTION---------------------------------------------------------------------------- */
 
 .contact-div{
@@ -831,6 +841,7 @@ h1{
 }
 form label{
   font-size: 17px;
+  font-family: 'Poppins';
 }
 .form-control{
   border-radius: unset;
@@ -885,7 +896,7 @@ form label{
       color: #173b6c;
     }
     form label{
-      font-size: 14px;
+      font-size: 15px;
     }
 }
 
