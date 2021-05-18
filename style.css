@@ -181,6 +181,14 @@ h1{
   color: white;
   box-shadow: unset;
 }
+.link-whitee a{
+  opacity: 1 !important;
+  color: white;
+}
+.link-whitee .fa{
+  opacity: 1 !important;
+  color: #007aff;
+}
 @media screen and (max-width:1200px){
   .left-nav{
     display: none;
@@ -910,7 +918,8 @@ form label{
 }
 .foot-text-1{
   color: white;
-  width: 230px;
+  width: 200px;
+  font-size: 14px;
 }
 .foot-text-1 span{
   color: #149ddd;
